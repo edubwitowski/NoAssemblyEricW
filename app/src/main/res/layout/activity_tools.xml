@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.androidbootcamp.noassemblyericw.Tools">
+
+    <TextView
+        android:id="@+id/txtBuild1"
+        android:layout_width="190dp"
+        android:layout_height="123dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txtbuild1"
+        app:layout_constraintBottom_toTopOf="@+id/txtBuild2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtBuild2"
+        android:layout_width="196dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/txtBuild2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBuild1" />
+
+    <TextView
+        android:id="@+id/txtBuild3"
+        android:layout_width="195dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/txtBuild3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBuild2" />
+</android.support.constraint.ConstraintLayout>

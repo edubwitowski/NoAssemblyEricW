@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NoAssemblyEricW</string>
+    <string name="txtbuild1">Dresser, you need Phillips Screw Driver</string>
+    <string name="txtBuild2">Bicycle, you need a Tire Pump and socket set</string>
+    <string name="txtBuild3">woodPatio, drill, socket set and second person</string>
+    <string name="btnTools">All tools Needed</string>
+    <string name="txtTools">No Assembly Required</string>
+</resources>
